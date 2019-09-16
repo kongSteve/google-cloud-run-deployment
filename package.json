@@ -4,7 +4,7 @@
     "description": "Deploy app on GCP Cloud run",
     "main": "app.js",
     "scripts": {
-      "start": "node index.js"
+      "start": "node app.js"
     },
     "author": "",
     "license": "Apache-2.0",
