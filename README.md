@@ -1,4 +1,4 @@
-# google-cloud-run-deployment
+# Google Cloud Run Deployment
 This is a test run on how to use google cloud platform tools (Cloud Run and Cloud Build) to deploy an application
 ## App overview
 This a simple NodeJs web server application using Express  to return a String that has the environment variable `TARGET` and the current date.
