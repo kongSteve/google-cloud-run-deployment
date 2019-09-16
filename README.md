@@ -1,5 +1,5 @@
-# google-cloud-run-deplyment
-This is to use google cloud platform tools (Cloud Run and Cloud Build) to deploy an application
+# google-cloud-run-deployment
+This is a test run on how to use google cloud platform tools (Cloud Run and Cloud Build) to deploy an application
 ## App overview
 This a simple NodeJs web server application using Express  to return a String that has the environment variable `TARGET` and the current date.
 
@@ -28,10 +28,10 @@ https://google-cloud-run-deplyoment-pujcg5swbq-uc.a.run.app -> Link to the appli
 
 >>>> ![service](img/cloud-run-config.PNG)
 
-> 2. on **Source** select you image that you uploaded either through Cloud Build or Locally
+> 2. on **Source** select your image that you uploaded either through Cloud Build or Locally
 >>>> ![Creating a new service](img/cloud-run-select-image.PNG)
 
->3. Select your Deplotment platform - this is either fully managed or to a kurbernetes engine cluster .Click the link to find out more 
+>3. Select your Deployment platform - this is either fully managed or to a kurbernetes engine cluster .Click the link to find out more 
 [Cloud Run vs Cloud Run on GKE](https://www.youtube.com/watch?v=RVdhyprptTQ)
 
 >4. Enter Service settings name (usually it is autogenarated based on you repository name)
@@ -43,6 +43,6 @@ https://google-cloud-run-deplyoment-pujcg5swbq-uc.a.run.app -> Link to the appli
 
 >7. Once you are satisfied with you settings/configuration . Hit Create
 
->8. Once create you will see you application depoyed and a `URL for your applications`
+>8. Once created, you will see you application depoyed and a `URL for your applications`
 
 >>>>![Deployed application](img/cloud-run-created.PNG) 
