@@ -1,0 +1,14 @@
+{
+    "name": "google-cloud-run-deployment",
+    "version": "1.0.0",
+    "description": "Deploy app on GCP Cloud run",
+    "main": "app.js",
+    "scripts": {
+      "start": "node index.js"
+    },
+    "author": "",
+    "license": "Apache-2.0",
+    "dependencies": {
+      "express": "^4.16.4"
+    }
+  }
